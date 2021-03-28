@@ -1,0 +1,28 @@
+.greyCard {
+    height: 160px;
+    width: 210px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    &:hover {
+        background-color: #e5e6e8;
+    }
+
+    &__title {
+        margin-top: 15px;
+        font-size: 20px;
+        color: #6c757d;
+        align-self: center;
+    }
+
+    &__data {
+        margin-top: 35px;
+
+        font-size: 30px;
+        align-self: center;
+        color: #6c757d;
+    }
+}
