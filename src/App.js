@@ -1,15 +1,16 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
-import RedCard from "./components/cards/red/RedCard";
-import BlueCard from "./components/cards/blue/BlueCard";
-import GreenCard from "./components/cards/green/GreenCard";
-import GreyCard from "./components/cards/grey/GreyCard";
+// import React, { useEffect, useState } from "react";
+// // import RedCard from "./components/cards/red/RedCard";
+// // import BlueCard from "./components/cards/blue/BlueCard";
+// // import GreenCard from "./components/cards/green/GreenCard";
+// // import GreyCard from "./components/cards/grey/GreyCard";
+import AllTopic from "./components/charts/allTopic/AllTopic";
 import "./App.scss";
 
 function App() {
-  const [cases_time, setCases_time] = useState({});
-  const [stateWise, setStateWise] = useState([]);
-  const [tested, setTested] = useState({});
+  // const [cases_time, setCases_time] = useState({});
+  // // const [stateWise, setStateWise] = useState([]);
+  // const [tested, setTested] = useState({});
 
   // useEffect(() => {
   // const dataSetter = (data) => {
@@ -27,10 +28,11 @@ function App() {
 
   return (
     <div className="App">
-      <RedCard />
-      <BlueCard />
-      <GreenCard />
-      <GreyCard />
+      {/* <RedCard /> */}
+      {/* <BlueCard /> */}
+      {/* <GreenCard /> */}
+      {/* <GreyCard /> */}
+      <AllTopic />
     </div>
   );
 }
